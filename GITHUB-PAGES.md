@@ -35,7 +35,9 @@ Sans cette variable, l’app ne pourra pas appeler l’API en production.
 
 1. **Settings** → **Pages**.
 2. **Build and deployment** :
-   - **Source** : **GitHub Actions** (et non « Deploy from a branch »).
+   - **Source** : **Deploy from a branch** (pas « GitHub Actions »).
+   - **Branch** : `gh-pages` (le workflow pousse le build sur cette branche).
+   - **Folder** : `/ (root)`.
 3. Enregistre si besoin.
 
 ---
