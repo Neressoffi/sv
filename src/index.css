@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Thème Saint-Valentin */
+:root {
+  --valentine-rose: #be185d;
+  --valentine-pink: #ec4899;
+  --valentine-light: #fce7f3;
+  --valentine-dark: #9d174d;
+  --valentine-cream: #fff1f2;
+  --valentine-gold: #d4a574;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(165deg, var(--valentine-cream) 0%, var(--valentine-light) 50%, #fbcfe8 100%);
+  color: #4a044e;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Scroll fluide sur mobile */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Boutons et zones tactiles plus grandes sur mobile */
+@media (max-width: 640px) {
+  button, a[role="button"], .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Transitions fluides type app mobile 2026 */
+svg.shrink-0 {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+button:active svg.shrink-0,
+a:active svg.shrink-0 {
+  transform: scale(0.95);
+}

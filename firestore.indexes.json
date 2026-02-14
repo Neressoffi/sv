@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "souvenirs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "forPartnerEmail", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "souvenirs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "createdBy", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

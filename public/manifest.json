@@ -1,0 +1,17 @@
+{
+  "name": "Souvenirs à Deux",
+  "short_name": "Souvenirs",
+  "description": "Partagez vos photos et quiz d'amour avec votre partenaire",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff1f2",
+  "theme_color": "#be185d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
